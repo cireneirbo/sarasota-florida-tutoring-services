@@ -12,50 +12,29 @@ import './App.css';
 function App() {
   return (
 
-	<div className="is-preload">
+		<div className="is-preload">
 
-		{/* <!-- Page Wrapper --> */}
 			<div id="page-wrapper">
 
 				<Header />
-
 				<Nav />
+				<Home />
 
-				{/* <!-- Banner --> */}
-					<Home />
+				<section id="wrapper">
 
-				{/* <!-- Wrapper --> */}
-					<section id="wrapper">
+					<About />
+					<Degrees />
+					<Expertise />
+					<History />
+					<Services />
 
-						<About />
+				</section>
 
-						{/* <!-- Two --> */}
-						<Degrees />
-
-						{/* <!-- Three --> */}
-						<Expertise />
-
-						{/* <!-- Four --> */}
-						<History />
-
-						<Services />
-
-					</section>
-
-				{/* <!-- Footer --> */}
-					<Contact />
+				<Contact />
 
 			</div>
 
-		{/* <!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script> */}
-
-	</div>
+		</div>
 
   );
 }
