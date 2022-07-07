@@ -1,10 +1,16 @@
 function Contact() {
+  function fakeAlert(e) {
+    alert("Sorry! This is just a mock website to demonstrate the web developer's ability to create a professional website for clients. :)");
+    e.preventdefault();
+  }
+
   return(
     <section id="footer">
       <div id="form" className="inner">
         <h2 className="major">Get in touch</h2>
         <p>Please contact me with any inquiries. I will be happy to discuss my credentials and our tutoring options.</p>
-        <form method="post" action="">
+
+        <form onSubmit={fakeAlert}>
           <div className="fields">
             <div className="field">
               <label for="name">Name</label>
@@ -23,6 +29,7 @@ function Contact() {
             <li><input type="submit" value="Send Message" /></li>
           </ul>
         </form>
+
         <ul className="contact">
           <li className="icon solid fa-home">
             Available for instruction in:<br />
@@ -35,9 +42,6 @@ function Contact() {
             Masters in Education Administration<br></br>
             Bachelor of Science in Education grades K-12 and a minor in English<br></br>
           </li>
-          {/* <!-- <li className="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li> --> */}
-          {/* <!-- <li className="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li> --> */}
-          {/* <!-- <li className="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li> --> */}
         </ul>
         <ul className="copyright">
           <li>&copy; Sarasota Florida Tutoring Services All rights reserved.</li><li>Created by: <a href="https://github.com/cireneirbo">cireneirbo</a></li>
