@@ -1,4 +1,5 @@
 function Contact() {
+  
   function fakeAlert(e) {
     alert("Sorry! This is just a mock website to demonstrate the web developer's ability to create a professional website for clients. :)");
     e.preventdefault();
