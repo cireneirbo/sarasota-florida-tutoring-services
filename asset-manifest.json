@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/sarasota-florida-tutoring-services/static/css/main.c6c58f17.css",
+    "main.js": "/sarasota-florida-tutoring-services/static/js/main.53dd98fb.js",
+    "static/media/tutor.jpg": "/sarasota-florida-tutoring-services/static/media/tutor.e7848120f2861a6bf3d7.jpg",
+    "static/media/classroom1.png": "/sarasota-florida-tutoring-services/static/media/classroom1.f1491b1afdcafc74339c.png",
+    "static/media/bg.jpg": "/sarasota-florida-tutoring-services/static/media/bg.d2fd9f614af21cdfa183.jpg",
+    "static/media/cafe1.jpg": "/sarasota-florida-tutoring-services/static/media/cafe1.09ae74be97a06a22f374.jpg",
+    "static/media/classroom4.jpg": "/sarasota-florida-tutoring-services/static/media/classroom4.ae9d33e2829a173e98da.jpg",
+    "static/media/classroom3.jpg": "/sarasota-florida-tutoring-services/static/media/classroom3.ca8c503bfd4c1d946996.jpg",
+    "static/media/classroom2.jpg": "/sarasota-florida-tutoring-services/static/media/classroom2.fd9b6d995b69e4a49f64.jpg",
+    "index.html": "/sarasota-florida-tutoring-services/index.html",
+    "static/media/close.svg": "/sarasota-florida-tutoring-services/static/media/close.17600364772e85410407.svg",
+    "main.c6c58f17.css.map": "/sarasota-florida-tutoring-services/static/css/main.c6c58f17.css.map",
+    "main.53dd98fb.js.map": "/sarasota-florida-tutoring-services/static/js/main.53dd98fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6c58f17.css",
+    "static/js/main.53dd98fb.js"
+  ]
+}
